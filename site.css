@@ -1,0 +1,119 @@
+div.relative {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+div.nav-top-absolute {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+div.nav-top-absolute a{
+  color: white;
+  font-weight: bold;
+}
+div.absolute {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    width: 60%;
+    height: 50%;
+    background-color: black;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+div.absolute-inner{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 60%;
+  height: 50%;
+}
+div.absolute-inner h1{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+div.absolute-inner h3{
+  text-align: center;
+  color: white;
+}
+div.absolute-inner div.input-search{
+  position: absolute;
+  top:35%;
+  right: 5%;
+  margin: auto;
+  width: 90%;
+}
+
+div.absolute-inner div.list-row{
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  margin: auto;
+  width: 80%;
+  color: white;
+}
+div.absolute-inner div.list-row div i.icon-show{
+  width: 40px;
+  font-size: 30px;
+}
+div.div-thumb{
+  padding: 0px;
+  border: #f4f3f2;
+}
+
+p.span-list{
+  color: #8190a1;
+  height: 50px;
+}
+i.icon-thumb{
+  color: #8190a1;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30px;
+}
+span.span-left{
+  color: #8190a1;
+  font-size: 13px;
+  display: inline-block;
+  width: 105px;
+}
+span.span-right{
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 55px;
+}
+span.span-price{
+  color: #8190a1;
+  font-size: 13px;
+}
+button.btn-brow{
+  width: 100%;
+  height: 20%;
+  font-size: 28px;
+  border-radius: 0px;
+}
+div.btn-row{
+  height: 150px;
+}
+h2.txt-h2{
+  font-size: 48px;
+  text-align: center;
+}
+h5.text-h5{
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+}
+button.btn-sign{
+  width: 40%;
+  padding: 16px 52px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+div.btn_row_2{
+  text-align: center;
+}
