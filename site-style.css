@@ -34,6 +34,18 @@ ul.dropdown-menu{
   .navbar-collapse.collapse ul.nav.navbar-center{
     display: block!important;
   }
+  div.div-img{
+    display: block!important;
+  }
+  footer a.aForm{
+    display: block!important;
+  }
+  footer a.aNew{
+    display: none!important;
+  }
+  div.clear-div{
+    height: 330px!important;
+  }
 }
 .collapse div.navbar-img img{
     display: none;
@@ -41,21 +53,33 @@ ul.dropdown-menu{
 .collapse ul.nav.navbar-center{
   display: none;
 }
+div.div-img{
+  display: none;
+  width:100%;
+}
+footer a.aForm{
+  display: none;
+}
+footer a.aNew{
+  display: block;
+}
+div.div-img img{
+  width:100%;
+  height:600px;
+}
+div.clear-div{
+  height: 50px;
+}
 div.nav-menu{
   border-top: 1px solid lightgrey;
 }
-p.p-image{
-  margin-top: 5%;
-  text-align: center;
-  margin-bottom: 5%;
-  font-weight: bold;
+.person {
+    border: 10px solid transparent;
+    width: 100%;
+    height: 80%;
 }
-div.gallery{
-  margin-top:5%;
-}
-img.img-slide{
-  width: 100%;
-  height:500px;
+.person:hover {
+    border-color: #f1f1f1;
 }
 footer{
   margin-top: 5%;
@@ -79,3 +103,13 @@ input.input-signup{
   border-color: white;
 
 }
+#fixedbutton {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+/*#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}*/
